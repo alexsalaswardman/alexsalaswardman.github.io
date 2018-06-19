@@ -59,7 +59,6 @@ a:hover, a:active {
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 120px;
-/*  background: #5555ff; */
 }
 
 #thumb-grid{
@@ -100,14 +99,12 @@ header{
 
 .thumbnail{
   grid-column: span 2;
-  background: #ff5555;
   overflow: hidden;
   position: relative;
 }
 
 .thumbnail-top{
   grid-column: span 2;
-  background: #ff5555;
   margin-bottom: -100px;
   overflow: hidden;
   position: relative;
