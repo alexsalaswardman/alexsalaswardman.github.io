@@ -73,6 +73,10 @@ a.thumb {
   grid-column: span 2;
 }
 
+ul{
+  font-size: .75em;
+}
+
 nav{
   grid-column: 1 / 5;
 }
