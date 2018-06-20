@@ -24,11 +24,12 @@ h2{
 }
 
 #nav-home{
-  color: #000;
+  font-size: 2em;
   float: left;
 }
 
 #nav-about{
+  font-size: 2em;
   float: right;
 }
 
