@@ -1,5 +1,8 @@
 /* global styles */
 
+
+
+
 html{
   margin: 0px 20px;
   scroll-behavior: smooth;
@@ -87,7 +90,17 @@ nav{
   grid-column: 1 / 3;
 }
 
+footer{
+  grid-column: 1 / 5;
+}
+
+
+
+
 /* homepage styles */
+
+
+
 
 header{
   grid-column: 1 / 4;
@@ -119,4 +132,32 @@ header{
 
 .overlay:hover {
   opacity: .5;
+}
+
+
+
+
+/* case study styles */
+
+
+
+
+.project-name{
+  grid-column: 1 / 2;
+}
+
+.project-description{
+  grid-column: 2 / 4;
+}
+
+.project-roles{
+  grid-column: 4 / 5;
+}
+
+.image-large{
+  grid-column: span 4;
+}
+
+.image-small{
+  grid-column: span 2;
 }
