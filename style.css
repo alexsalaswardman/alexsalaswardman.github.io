@@ -154,10 +154,10 @@ header{
   grid-column: 4 / 5;
 }
 
-.image-large{
+.block-large{
   grid-column: span 4;
 }
 
-.image-small{
+.block-small{
   grid-column: span 2;
 }
