@@ -148,22 +148,21 @@ header{
 
 .project-name{
   font-weight: 400;
-  font-size: 3em;
+  font-size: 2em;
   grid-column: 1 / 5;
-  line-height: .7em;
-  margin-bottom: -60px;
+  margin-bottom: -40px;
 }
 
 .project-description{
   font-size: 1em;
-  padding-right: 2em;
+  padding-right: 1em;
   grid-column: 1 / 4;
 }
 
-/* .project-details{
-  font-size: .6em;
+  .project-details{
+  font-size: 1em;
   grid-column: 4 / 5;
-} */
+}
 
 .block-large{
   grid-column: span 4;
