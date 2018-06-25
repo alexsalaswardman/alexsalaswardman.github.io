@@ -148,7 +148,7 @@ header{
 
 .project-name{
   font-weight: 400;
-  font-size: 4em;
+  font-size: 3em;
   grid-column: 1 / 5;
   line-height: .7em;
   margin-bottom: -60px;
@@ -157,7 +157,7 @@ header{
 .project-description{
   font-size: 1em;
   padding-right: 2em;
-  grid-column: 1 / 5;
+  grid-column: 1 / 4;
 }
 
 /* .project-details{
