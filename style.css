@@ -89,6 +89,7 @@ nav{
 
 .subheader{
   grid-column: 1 / 2;
+  line-height: 1em;
 }
 
 footer{
@@ -156,7 +157,7 @@ header{
   grid-column: 1 / 4;
 }
 
-  .project-details{
+.project-details{
   grid-column: 4 / 5;
 }
 
