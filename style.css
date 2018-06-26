@@ -75,7 +75,7 @@ a.thumb {
 }
 
 ul{
-  font-size: .75em;
+  line-height: 1.5em;
 }
 
 nav{
@@ -89,7 +89,7 @@ nav{
 
 .subheader{
   grid-column: 1 / 2;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 footer{
