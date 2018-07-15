@@ -53,6 +53,7 @@ H1{
 }
 
 H2{
+  margin: 0;
   font-weight: normal;
 	font-size: 1em;
 	text-transform: uppercase;
@@ -60,10 +61,11 @@ H2{
 }
 
 H3{
+  margin-top: 10px;
   font-weight: normal;
-	font-size: 0.643em;
+	font-size: 0.6em;
 	letter-spacing: -1px;
-	line-height: 0.857em;
+  line-height: 1.5em;
 }
 
 H3.greytext{
@@ -89,13 +91,11 @@ H3.greytext{
 a:link, a:visited {
   color: #000;
   text-decoration: underline;
-  /*-webkit-text-stroke: 1px black;*/
 }
 
 a:hover, a:active {
   color: #000;
   text-decoration: none;
-  -webkit-text-stroke: 0px;
 }
 
 .thumbnail:hover {
@@ -125,9 +125,8 @@ a.nav:hover, a.nav:active {
   grid-column-gap: 10px;
 }
 
-
 ul{
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 nav{
@@ -186,16 +185,17 @@ header{
   font-weight: 400;
   font-size: 3em;
   grid-column: 1 / 5;
-  margin-bottom: -40px;
+  margin-bottom: -120px;
 }
 
 .project-description{
-  padding-right: 1em;
-  grid-column: 1 / 4;
+  grid-column: 3 / 5;
+  margin-bottom: -120px;
 }
 
 .project-details{
-  grid-column: 4 / 5;
+  grid-column: span 1;
+  margin-bottom: -120px;
 }
 
 .block-large{
