@@ -24,7 +24,7 @@
 @import url("//hello.myfonts.net/count/370908");
 
 
-@font-face {font-family: 'BergenMono-Regular';src: url('webfonts/370908_0_0.eot');src: url('webfonts/370908_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/370908_0_0.woff2') format('woff2'),url('webfonts/370908_0_0.woff') format('woff'),url('webfonts/370908_0_0.ttf') format('truetype');}
+@font-face {font-family: 'BergenMono-Regular';src: url('/webfonts/370908_0_0.eot');src: url('/webfonts/370908_0_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/370908_0_0.woff2') format('woff2'),url('/webfonts/370908_0_0.woff') format('woff'),url('/webfonts/370908_0_0.ttf') format('truetype');}
 
 
 
