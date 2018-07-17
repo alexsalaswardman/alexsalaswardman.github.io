@@ -193,7 +193,7 @@ footer{
     }
 }
 
-@media only screen and (min-width : 641px) and (max-width : 1200px) {
+@media only screen and (min-width : 681px) and (max-width : 1200px) {
     /* For tablet: */
     body{
       font-size: 28px;
@@ -221,7 +221,7 @@ footer{
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 680px) {
     /* For mobile: */
     body{
       font-size: 20px;
