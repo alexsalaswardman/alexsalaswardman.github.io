@@ -38,7 +38,7 @@ html{
 }
 
 body{
-  font-size: 32px;
+  font-size: 34px;
   font-family: "BergenMono-Regular", sans-serif;
   line-height: 1.6em;
   letter-spacing: -3px;
@@ -68,15 +68,7 @@ H3{
   line-height: 1.5em;
 }
 
-H3.greytext{
-	color: #ACACAC;
-}
-
-.Copyright{
-  font-family: helvetica;
-}
-
-.description{
+.bodycopy{
   grid-column: 2 / 5;
 }
 
@@ -149,15 +141,8 @@ footer{
 
 
 
-
 /* homepage styles */
 
-
-
-
-header{
-  grid-column: 1 / 5;
-}
 
 .thumbnail{
   grid-column: span 2;
@@ -174,28 +159,17 @@ header{
 }
 
 
-
-
 /* case study styles */
 
 
-
-
-.project-name{
-  font-weight: 400;
-  font-size: 3em;
-  grid-column: 1 / 5;
-  margin-bottom: -120px;
-}
-
 .project-description{
   grid-column: 3 / 5;
-  margin-bottom: -120px;
+  margin-bottom: -80px;
 }
 
 .project-details{
   grid-column: span 1;
-  margin-bottom: -120px;
+  margin-bottom: -80px;
 }
 
 .block-large{
@@ -204,4 +178,102 @@ header{
 
 .block-small{
   grid-column: span 2;
+}
+
+
+
+/* breakpoints */
+
+
+@media only screen and (min-width: 1700px) {
+    /* For large monitors: */
+    body{
+      font-size: 40px;
+      letter-spacing: -4px;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+    /* For tablet: */
+    body{
+      font-size: 28px;
+      font-family: "BergenMono-Regular", sans-serif;
+      line-height: 1.6em;
+      letter-spacing: -3px;
+    }
+
+    H1{
+    	font-size: 48px;
+      letter-spacing: -3px;
+    }
+
+    #content{
+      grid-row-gap: 100px;
+    }
+
+    .project-description{
+      grid-column: span 4;
+      margin-bottom: -40px;
+    }
+
+    .project-details{
+      grid-column: span 2;
+      margin-bottom: -40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile: */
+    body{
+      font-size: 20px;
+      line-height: 1.6em;
+      letter-spacing: -2px;
+    }
+
+    .thumbnail{
+      grid-column: span 1;
+    }
+
+    H1{
+    	font-size: 30px;
+      letter-spacing: -3px;
+    }
+
+    H3{
+    	font-size: 1em;
+    }
+
+    #content{
+      grid-row-gap: 60px;
+    }
+
+    #thumb-grid{
+      grid-template-columns: repeat(1, 1fr);
+      grid-row-gap: 40px;
+      grid-column-gap: 10px;
+    }
+
+    html{
+      margin: 20px 10px;
+    }
+
+    .subheader{
+      margin: 0;
+      grid-column: 1 / 5;
+    }
+
+    .bodycopy{
+      grid-column: 1 / 5;
+    }
+
+    .project-description{
+      grid-column: 1 / 5;
+      margin-bottom: 0px;
+    }
+
+    .project-details{
+      grid-column: 1 / 5;
+      margin-bottom: 0px;
+    }
+
 }
