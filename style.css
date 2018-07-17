@@ -193,11 +193,10 @@ footer{
     }
 }
 
-@media only screen and (min-width : 601px) and (max-width : 1200px) {
+@media only screen and (min-width : 641px) and (max-width : 1200px) {
     /* For tablet: */
     body{
       font-size: 28px;
-      font-family: "BergenMono-Regular", sans-serif;
       line-height: 1.6em;
       letter-spacing: -3px;
     }
@@ -222,7 +221,7 @@ footer{
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
     /* For mobile: */
     body{
       font-size: 20px;
