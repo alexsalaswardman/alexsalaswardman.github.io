@@ -193,35 +193,9 @@ footer{
     }
 }
 
-@media only screen and (min-width : 681px) and (max-width : 1200px) {
-    /* For tablet: */
-    body{
-      font-size: 28px;
-      line-height: 1.6em;
-      letter-spacing: -3px;
-    }
 
-    H1{
-    	font-size: 48px;
-      letter-spacing: -3px;
-    }
 
-    #content{
-      grid-row-gap: 100px;
-    }
-
-    .project-description{
-      grid-column: span 4;
-      margin-bottom: -40px;
-    }
-
-    .project-details{
-      grid-column: span 2;
-      margin-bottom: -40px;
-    }
-}
-
-@media only screen and (max-device-width: 680px) {
+@media only screen and (max-width: 1200px) {
     /* For mobile: */
     body{
       font-size: 20px;
