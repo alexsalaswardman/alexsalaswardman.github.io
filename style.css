@@ -221,7 +221,9 @@ footer{
     }
 }
 
-@media only screen and (max-width: 680px) {
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
     /* For mobile: */
     body{
       font-size: 20px;
