@@ -65,7 +65,7 @@ H3{
   font-weight: normal;
 	font-size: 0.6em;
 	letter-spacing: -1px;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
 .bodycopy{
@@ -135,6 +135,18 @@ nav{
   grid-column: 1 / 2;
 }
 
+table {
+  margin: 80px 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  padding: 30px 0px;
+}
+
 footer{
   grid-column: 1 / 5;
 }
@@ -164,12 +176,12 @@ footer{
 
 .project-description{
   grid-column: 3 / 5;
-  margin-bottom: -80px;
+  margin-bottom: -100px;
 }
 
 .project-details{
   grid-column: span 1;
-  margin-bottom: -80px;
+  margin-bottom: -100px;
 }
 
 .block-large{
@@ -223,9 +235,22 @@ footer{
       grid-column: span 2;
       margin-bottom: -40px;
     }
+
+    .block-small{
+      grid-column: span 4;
+    }
+
+    .subheader{
+      margin: 0;
+      grid-column: span 4;
+    }
+
+    .bodycopy{
+      grid-column: span 4;
+    }
 }
 
-@media only screen and (min-width : 320 px) and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     /* For mobile: */
     body{
       font-size: 20px;
@@ -262,20 +287,20 @@ footer{
 
     .subheader{
       margin: 0;
-      grid-column: 1 / 5;
+      grid-column: span 4;
     }
 
     .bodycopy{
-      grid-column: 1 / 5;
+      grid-column: span 4;
     }
 
     .project-description{
-      grid-column: 1 / 5;
+      grid-column: span 4;
       margin-bottom: 0px;
     }
 
     .project-details{
-      grid-column: 1 / 5;
+      grid-column: span 4;
       margin-bottom: 0px;
     }
 
